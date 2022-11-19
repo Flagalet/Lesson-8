@@ -24,7 +24,7 @@ void PrintArray(int[,] inArray)
     }           
 }
 
-void SumLineArray(int[,] array)
+void MinSumLineArray(int[,] array)
 {
     int sum = 0;
     int n = 0;
@@ -58,4 +58,4 @@ Console.Clear();
 int[,] array = GetArray(4, 6);
 PrintArray(array);
 Console.WriteLine();
-SumLineArray(array);
+MinSumLineArray(array);
