@@ -55,7 +55,7 @@ void SumLineArray(int[,] array)
 
 
 Console.Clear();
-int[,] array = GetArray(4, 4);
+int[,] array = GetArray(4, 6);
 PrintArray(array);
 Console.WriteLine();
 SumLineArray(array);
